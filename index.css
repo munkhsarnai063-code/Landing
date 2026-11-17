@@ -73,6 +73,7 @@ header img{
 }
 .test{
     display: flex;
+    align-items: center;
     gap: 16px;
 }
 .middle_section_route_containers{
@@ -91,14 +92,16 @@ header img{
     display: flex;
     justify-content: center;
     align-items: center;    
+    position: relative;
 }
 .day_dash{
     border: 1px;
     border-left: 3px dashed;
     width: 1px;
-    height: 100px;
+    height: 45px;
     border-color: #1D1F24;
-    position: relative;
+    position: absolute;
+    bottom: -45px;
 }
 .middle_section_route_container_name> h1{
     color: var(--primery-text-color);
