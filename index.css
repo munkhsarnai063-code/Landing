@@ -180,6 +180,10 @@ header img{
      font-weight: 400;
      font-size: 12px;
 }
+.map{
+     width: 692px;
+     height: 845px;
+}
 /* bottom section */
 .bottom_section{
      display: flex;
